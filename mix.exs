@@ -29,7 +29,7 @@ defmodule Demo.Mixfile do
   defp deps do
     [
       {:eper, github: "massemanet/eper", tag: "0.97.6"},
-      {:eqc_ex, "~> 1.2.4"}
+      {:eqc_ex, "~> 1.4.2"}
     ]
   end
 end
