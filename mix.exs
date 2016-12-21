@@ -28,7 +28,8 @@ defmodule Demo.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:eper, github: "massemanet/eper", tag: "0.97.6"}
+      {:eper, github: "massemanet/eper", tag: "0.97.6"},
+      {:eqc_ex, "~> 1.2.4"}
     ]
   end
 end
