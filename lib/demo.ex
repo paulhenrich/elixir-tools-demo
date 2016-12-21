@@ -8,8 +8,8 @@ defmodule Demo do
     Enum.reduce(numbers, 0, fn(x, total) -> x + total end)
   end
 
-  def square(num) do: num * num
+  def square(num), do: num * num
 
-  def bad_square(10)  do: -100
-  def bad_square(num) do: square(num)
+  def bad_square(10),  do: -100
+  def bad_square(num), do: square(num)
 end
